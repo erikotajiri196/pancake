@@ -1,1 +1,283 @@
 
+@charset "UTF-8";
+
+
+html{
+    font-size:100%;
+    font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+    line-height: 1.7;
+    color:#3c3c3c;
+}
+
+/*section1*/
+#home{
+    background-image:url(https://github.com/erikotajiri196/pancake/blob/main/image1.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1100px;
+    height: 673px;
+    margin: 0 auto;
+}
+.page-tittle{
+    display: table;
+    margin: 0 auto;
+}
+h1{
+    font-family: serif, Georgia , Times ;
+    color: #686868;
+    background-color: #fff;
+    font-size: 60px;
+    letter-spacing:11px;
+    margin-top: 269px ;
+    padding: 0 30px;
+}
+
+/**section2**/
+#section2{
+    background-image:url(https://github.com/erikotajiri196/pancake/blob/main/back1.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1100px;
+    height: 1176px;
+    margin: 0 auto;
+}
+.image2{/*リボン*/
+    width: 517px;
+    margin-top: 47px;
+    margin-left: 108px;
+}
+.image6{/*ミルククリームパンケーキ*/
+    width: 1020px;
+    margin-top: -189px;
+    margin-bottom: 46px;
+}
+.milk{
+    text-align: right;
+}
+#btn a{  
+    width:410px;
+    height:102px;
+    background-image:url(https://github.com/erikotajiri196/pancake/blob/main/image5.png?raw=true);
+    background-position:top left;
+    background-repeat:no-repeat;
+    background-size:410px;
+    text-decoration:none;
+    color:#FFFFFF;
+    font-size: 36px;
+    letter-spacing: 3px;
+    text-align: center;
+    display:block;
+    padding-top: 19px;
+    display: table;
+    margin: 0 auto;
+    font-family: "Helvetica Neue",Arial,
+    "Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+    }
+#btn :hover{
+    color: #CFC6C6;
+}
+
+.img-center{
+    text-align:center;
+
+}
+/**section3**/
+#section3{
+    background-color:#FFF3E3;
+    background-size: cover;
+    background-position: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.image7{/*how to*/
+    width: 376px;
+}
+.image8{/*ポイント画像*/
+    width: 900px;
+    padding-right: 70px;
+}
+.flex1{
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.lefttxt {
+    width: 300px;
+}
+.centertxt {
+    width: 281px;
+}
+.righttxt {
+    width: 300px;
+}
+.lefttxt >b{
+    color: #DC8C6A;
+    font-size: 20px;
+}
+.centertxt >b{
+    color: #DC8C6A;
+    font-size: 20px;
+}
+.righttxt >b{
+    color: #DC8C6A;
+    font-size: 20px;
+}
+.image9{/*吹き出し*/
+    width: 806px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.image10{/*瞬間冷凍*/
+    width: 900px;
+    margin-bottom: 100px;
+}
+.image16{/*緑ストライプ上*/
+    width: 1100px;
+    margin-top: -85px;
+}
+.image20{/*緑ストライプ下*/
+    width: 1100px;
+    margin-top: -9px;
+}
+
+/**section4**/
+#section4{
+    background-image:url(https://github.com/erikotajiri196/pancake/blob/main/image13.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1100px;
+    height: 698px;
+    margin: 0 auto;
+    margin-top: -21px;
+}
+.image11{/*user's voice*/
+    width:400px ;
+    margin-top: -3px;
+    margin-bottom: -24px;
+}
+.flex2{
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.flame{
+    background-image:url(https://github.com/erikotajiri196/pancake/blob/main/image12.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 51px;
+    margin-bottom: 33px;
+}
+.flextxt1{
+    line-height: 2.7;
+    padding-left: 28px;
+}
+.flextxt2{
+    line-height: 2.7;
+    padding-left: 160px;
+}
+.image16{/*緑ストライプ上*/
+    width: 1100px;
+    margin-top: -85px;
+}
+.image20{/*緑ストライプ下*/
+    width: 1100px;
+    margin-top: -9px;
+}
+/**section5**/
+#section5{
+    background-image:url(https://github.com/erikotajiri196/pancake/blob/main/image21.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1100px;
+    height: 1281px;
+    margin: 0 auto;
+    margin-top: -90px;
+}
+
+.image15{
+    width: 783px;
+    margin-top: 316px;
+}
+/**section6**/
+#section6{
+    background-image:url(https://github.com/erikotajiri196/pancake/blob/main/image23.png?raw=true);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: -9px;
+}
+.image22{/*白斜め上*/
+    width: 1100px;
+    margin-top: -258px;
+}
+.image17{/*line up*/
+    width: 376px;
+    margin-top: -44px;
+}
+.image18{/*line up写真２枚*/
+    width: 714px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.image24{
+    width: 1100px;
+    margin-top: -18px;
+}
+#btn2 a{  
+    width:410px;
+    height:102px;
+    background-image:url(https://github.com/erikotajiri196/pancake/blob/main/image5.png?raw=true);
+    background-position:top left;
+    background-repeat:no-repeat;
+    background-size:410px;
+    text-decoration:none;
+    color:#FFFFFF;
+    font-size: 36px;
+    letter-spacing: 3px;
+    text-align: center;
+    display:block;
+    padding-top: 19px;
+    display: table;
+    margin: 0 auto;
+    padding-bottom: 52px;
+    font-family: "Helvetica Neue",Arial,
+    "Hiragino Kaku Gothic ProN","Hiragino Sans",Meiryo,sans-serif;
+    }
+#btn2 :hover{
+    color: #CFC6C6;
+}
+
+
+/*-----SP版-----*/
+@media (max-width:600px){
+    body{
+        width: 1100px;
+    }  
+    html{
+        width: 1100px;
+    }   
+    .image6{/*ミルククリームパンケーキ*/
+        width: 1051px;
+        margin-bottom: 50px;
+        margin-top: -152px;
+    }
+
+
+}/*-----SP版-----*/
